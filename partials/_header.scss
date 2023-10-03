@@ -33,8 +33,7 @@ header {
 /* =========================== MEDIA QUERIES (MEDIUM DEVICES) ==========================*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 70vh !important;
-
+        height: 100vh ;
         .container {
             gap: 1rem; 
 

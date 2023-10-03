@@ -5,6 +5,7 @@
     .swiper-wrapper {
         // brings pagination down
         margin-bottom: 4rem;
+        min-height: 310px;
 
         .swiper-slide {
             @include gradientBackground;
@@ -13,6 +14,9 @@
             cursor: default;
             font-size: 0.9rem;
             min-height: 310px;
+            display:flex;
+            justify-content:space-between; 
+            flex-direction:column;
 
             p {
                 margin-bottom: 1.5rem;
